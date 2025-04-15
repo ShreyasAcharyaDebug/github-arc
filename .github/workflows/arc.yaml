@@ -6,4 +6,4 @@ jobs:
   Test:
     runs-on: arc-runner-set
     steps:
-    - run: echo "working !!!!"
+    - run: docker images
