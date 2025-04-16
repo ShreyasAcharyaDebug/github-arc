@@ -4,6 +4,6 @@ on:
 
 jobs:
   Test:
-    runs-on: arc-runner-set
+    runs-on: self-hosted
     steps:
     - run: docker images
