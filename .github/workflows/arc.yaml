@@ -4,6 +4,6 @@ on:
 
 jobs:
   Test:
-    runs-on: self-hosted
+    runs-on: amagi-amd64-small
     steps:
     - run: docker images
